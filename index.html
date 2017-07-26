@@ -7,8 +7,13 @@
   <link rel="shortcut icon" href="/img/мак.png" type="image/png">
   <style>
     @font-face {
-    font-family: Roboto; /* Имя шрифта */
-    src: url(/font/roboto/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+      font-family: "RobotoRegular";  /* Имя шрифта */
+			src: url("/font/Roboto/RobotoRegular/RobotoRegular.eot"); /* Путь к файлу со шрифтом */
+			src: url("/font/Roboto/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+			url("/font/Roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
+			url("/font/Roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
     }
     a {
       text-decoration: none;
@@ -18,12 +23,12 @@
 
     h1 {
       margin-bottom: -15px;
-      font-family: Roboto;
+      font-family: "RobotoRegular";
       font-size: 50px;
       /* Отрицательный отступ между заголовком и текстом */
     }
     p {
-      font-family: Roboto;
+      font-family: "RobotoRegular";
       font-size: 20px;
     }
   </style>
