@@ -47,11 +47,11 @@ img.gmail {
     right: -70px;
   }
 
-#text {
+div {
   font-family: "RobotoRegular";
   font-size: 20px;
   width: 960px; /* Ширина */
-  
+
 
   margin: 0 auto;
 
