@@ -42,7 +42,7 @@ img {
 }
 
 img.gmail {
-    
+    position: absolute;
     top: -10px;
     right: -120px;
   }
