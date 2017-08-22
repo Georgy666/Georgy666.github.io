@@ -30,22 +30,6 @@ A:visited {
   color: #7F8289;
   /* Цвет посещенных ссылок */
 }
-img {
-  max-width: 100%;
-  position: relative;
-  left: -25px;
-}
-.logo {
-  position: relative;
-  left: -5px;
-
-}
-
-.gmail {
-    position: relative;
-    top: 10px;
-    right: 50%;
-  }
 
 div {
   font-family: "RobotoRegular";
