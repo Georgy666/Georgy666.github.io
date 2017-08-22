@@ -44,7 +44,7 @@ img {
 .gmail {
     position: relative;
     top: 10px;
-    left:  -100px;
+    right: 100px;
   }
 
 div {
