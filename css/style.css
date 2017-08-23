@@ -31,6 +31,12 @@ A:visited {
   /* Цвет посещенных ссылок */
 }
 
+a.letter {
+color: black; /* Цвет символа */
+font-family: "RobotoRegular";
+font-size: 25px; /* Размер шрифта */
+}
+
 div {
   font-family: "RobotoRegular";
   font-size: 20px;
@@ -39,6 +45,20 @@ div {
   position: relative;
 
   right: -350px;
+  -moz-box-sizing: border-box; /* Для Firefox */
+  -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+  box-sizing: border-box; /* Для IE и Opera */
+}
+
+div.page-404 {
+  font-family: "RobotoRegular";
+  font-size: 25px;
+  width: 600px; /* Ширина */
+  padding: 20px; /* Поля */
+  position: relative;
+
+  right: -350px;
+  bottom: -280px;
   -moz-box-sizing: border-box; /* Для Firefox */
   -webkit-box-sizing: border-box; /* Для Safari и Chrome */
   box-sizing: border-box; /* Для IE и Opera */
