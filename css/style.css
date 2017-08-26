@@ -17,8 +17,9 @@ p {
 }
 
 body {
-  background: #2F3238;
-  color: #7F8289;
+  background: url(шьп/shattered-island.gif) no-repeat;
+  /*background: #2F3238;*/
+/*  color: #7F8289;*/
 }
 
 A {
