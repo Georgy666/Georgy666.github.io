@@ -65,8 +65,9 @@ div.page-404 {
 }
 
 .logo {
-  position: relative;
-  left: -5px;
+  /*position: relative;
+  left: -5px;*/
+  width: -5px;
 }
 
 img.gmail {
