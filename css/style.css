@@ -16,7 +16,7 @@ p {
   font-size: 20px;
 }
 
-body {  
+body {
   background: #2F3238;
   color: #7F8289;
 }
@@ -62,4 +62,15 @@ div.page-404 {
   -moz-box-sizing: border-box; /* Для Firefox */
   -webkit-box-sizing: border-box; /* Для Safari и Chrome */
   box-sizing: border-box; /* Для IE и Opera */
+}
+
+.logo {
+  position: relative;
+  left: -5px;
+}
+
+img.gmail {
+  position: relative;
+  top: -55px;
+  left: -280px;
 }
