@@ -42,14 +42,12 @@ div {
   font-size: 20px;
   max-width: 600px; /* Ширина */
   padding: 20px; /* Поля */
-  position: relative;
 
+  /* position: relative;
   right: -350px;
-  -moz-box-sizing: border-box; /* Для Firefox */
-  -webkit-box-sizing: border-box; /* Для Safari и Chrome */
-  box-sizing: border-box; /* Для IE и Opera */
-}
 
+}
+  */
 div.page-404 {
   font-family: "RobotoRegular";
   font-size: 25px;
