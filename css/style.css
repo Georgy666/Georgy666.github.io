@@ -40,7 +40,7 @@ font-size: 25px; /* Размер шрифта */
 div {
   font-family: "RobotoRegular";
   font-size: 20px;
-  width: 600px; /* Ширина */
+  max-width: 600px; /* Ширина */
   padding: 20px; /* Поля */
   position: relative;
 
