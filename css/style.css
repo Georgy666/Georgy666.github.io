@@ -52,6 +52,8 @@ article {
   font-size: 1.3em;
   max-width: 600px; /* Ширина */
   margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
   }
 
 div.page-404 {
