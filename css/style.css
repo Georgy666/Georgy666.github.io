@@ -39,7 +39,7 @@ font-size: 25px; /* Размер шрифта */
 }
 
 div {
-  
+
   font-size: 20px;
   max-width: 600px; /* Ширина */
   padding: 20px; /* Поля */
@@ -68,8 +68,5 @@ header {
   background: url("../img/shattered-island.png") center center no-repeat;
   text-align: center;
   background-size: cover;
-  padding-top: 50px;
-  padding-right: 20px;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  
 }
