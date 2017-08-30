@@ -38,7 +38,7 @@ color: black; /* Цвет символа */
 
 div {
 
-  font-size: 1em;
+  font-size: 1.25em;
   max-width: 600px; /* Ширина */
   padding: 20px; /* Поля */
 
@@ -51,7 +51,7 @@ div {
 
 div.page-404 {
 
-  font-size: 1em;
+  font-size: 1.5em;
   width: 600px; /* Ширина */
   padding: 20px; /* Поля */
   position: relative;
