@@ -6,17 +6,18 @@ a {
 
 h1 {
   margin-bottom: -15px;
-  font-family: "RobotoRegular";
+
   font-size: 50px;
   /* Отрицательный отступ между заголовком и текстом */
 }
 
 p {
-  font-family: "RobotoRegular";
+
   font-size: 20px;
 }
 
 body {
+  font-family: "RobotoRegular";
   background: #2F3238;
   color: #7F8289;
 }
@@ -33,12 +34,12 @@ A:visited {
 
 a.letter {
 color: black; /* Цвет символа */
-font-family: "RobotoRegular";
+
 font-size: 25px; /* Размер шрифта */
 }
 
 div {
-  font-family: "RobotoRegular";
+  
   font-size: 20px;
   max-width: 600px; /* Ширина */
   padding: 20px; /* Поля */
@@ -51,7 +52,7 @@ div {
 }
 
 div.page-404 {
-  font-family: "RobotoRegular";
+
   font-size: 25px;
   width: 600px; /* Ширина */
   padding: 20px; /* Поля */
