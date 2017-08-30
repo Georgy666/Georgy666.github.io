@@ -67,4 +67,5 @@ header {
   background: url("../img/shattered-island.png") center center no-repeat;
   text-align: center;
   background-size: cover;
+  padding: 135px 20px 90px 20px;
 }
