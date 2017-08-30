@@ -38,7 +38,7 @@ color: black; /* Цвет символа */
 
 div {
 
-  font-size: 1.25em;
+  font-size: 1.3em;
   max-width: 600px; /* Ширина */
   padding: 20px; /* Поля */
 
@@ -72,7 +72,7 @@ header {
   padding-bottom: auto;
   padding-left: 20px;
   }
-  
+
   p.links {
     font-size: 1.5em;
   }
