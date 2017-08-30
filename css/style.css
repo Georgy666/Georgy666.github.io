@@ -63,3 +63,8 @@ div.page-404 {
   -webkit-box-sizing: border-box; /* Для Safari и Chrome */
   box-sizing: border-box; /* Для IE и Opera */
 }
+header {
+  background: url("../img/shattered-island.png") center center no-repeat;
+  text-align: center;
+  background-size: cover;
+}
