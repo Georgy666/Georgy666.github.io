@@ -52,8 +52,9 @@ article {
   font-size: 1.3em;
   max-width: 600px; /* Ширина */
   margin: 0 auto;
-  padding-left: 50px;
-  padding-right: 50px;
+   /*внутренние отступы
+                      проверить, сработали они или ширина*/
+  
   }
 
 div.page-404 {
