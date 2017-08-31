@@ -48,13 +48,12 @@ div {
   -webkit-box-sizing: border-box; /* Для Safari и Chrome */
   box-sizing: border-box; /* Для IE и Opera */
   }
+
 article {
   font-size: 1.3em;
   max-width: 600px; /* Ширина */
   margin: 0 auto;
-   /*внутренние отступы
-                      проверить, сработали они или ширина*/
-  
+  padding-bottom: -15px;
   }
 
 div.page-404 {
