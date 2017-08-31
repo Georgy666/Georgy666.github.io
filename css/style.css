@@ -18,6 +18,7 @@ p {
 p.links {
   font-size: 1.5em;
   }
+
 body {
   font-family: "RobotoRegular";
   background: #2F3238;
@@ -35,7 +36,11 @@ A:visited {
   }
 
 a.letter {
-color: black; /* Цвет символа */
+  color: black; /* Цвет символа */
+  }
+
+a.gmail {
+  color: black; /* Цвет символа */
   }
 
 article {
