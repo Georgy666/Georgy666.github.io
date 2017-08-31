@@ -19,6 +19,10 @@ p.links {
   font-size: 1.5em;
   }
 
+p.bot-line {
+  margin-top: 10px;
+  }
+
 body {
   font-family: "RobotoRegular";
   background: #2F3238;
