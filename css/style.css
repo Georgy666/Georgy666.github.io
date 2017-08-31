@@ -36,35 +36,21 @@ a.letter {
 color: black; /* Цвет символа */
   }
 
-div {
-
-  font-size: 1.3em;
-  max-width: 600px; /* Ширина */
-  padding: 20px; /* Поля */
-
-  position: relative;
-  right: -350px;
-  -moz-box-sizing: border-box; /* Для Firefox */
-  -webkit-box-sizing: border-box; /* Для Safari и Chrome */
-  box-sizing: border-box; /* Для IE и Opera */
-  }
-
 article {
   font-size: 1.3em;
-  max-width: 600px; /* Ширина */
-  margin: 0 auto;
-  padding-bottom: -15px;
+  max-width: 600px; /*максимальная ширина текста*/
+  margin: 0 auto; /* центрирование текста*/
+  margin-bottom: 10px; /*внешнй отступ*/
   }
 
 div.page-404 {
 
   font-size: 1.5em;
-  width: 600px; /* Ширина */
+  max-width: 600px; /* Ширина */
   padding: 20px; /* Поля */
-  position: relative;
 
-  right: -350px;
-  bottom: -280px;
+
+  margin: 0 auto;
   -moz-box-sizing: border-box; /* Для Firefox */
   -webkit-box-sizing: border-box; /* Для Safari и Chrome */
   box-sizing: border-box; /* Для IE и Opera */
