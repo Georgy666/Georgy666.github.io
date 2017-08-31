@@ -51,6 +51,7 @@ div.page-404 {
 
   margin: 0 auto;
   margin-bottom: 100px;
+  padding-bottom: 100px;
   -moz-box-sizing: border-box; /* Для Firefox */
   -webkit-box-sizing: border-box; /* Для Safari и Chrome */
   box-sizing: border-box; /* Для IE и Opera */
