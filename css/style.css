@@ -50,6 +50,12 @@ article {
   margin-bottom: 10px; /*внешнй отступ*/
   }
 
+section {
+  font-size: 1.3em;
+  max-width: 600px; /*максимальная ширина текста*/
+  margin: 0 auto; /* центрирование текста*/
+  }
+
 div.page-404 {
 
   font-size: 1.5em;
