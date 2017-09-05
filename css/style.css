@@ -1,9 +1,6 @@
- {
-
-  /* Отменяем подчеркивание у ссылки */
-  }
-
-
+:root {
+  --maxi-width: 600px;
+}
 h1.site-name {
   margin-bottom: -15px;
   font-size: 4em;
@@ -52,21 +49,21 @@ a.gmail {
 
 article.about_me {
   font-size: 1.4em;
-  max-width: 600px; /*максимальная ширина текста*/
+  max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
   margin-bottom: 10px; /*внешнй отступ*/
   }
 
 section {
   font-size: 1.3em;
-  max-width: 600px; /*максимальная ширина текста*/
+  max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
   }
 
 div.page-404 {
 
   font-size: 1.5em;
-  max-width: 600px; /* Ширина */
+  max-width: var(--maxi-width); /* Ширина */
   padding: 20px; /* Поля */
 
   margin: 0 auto;
