@@ -14,9 +14,8 @@ h1.site-name {
 h1.title-last {
     font-size: 1.7em;
   }
-p {
-  font-size: 20px;
-}
+
+
 p.links {
   font-size: 1.7em;
   margin: 0 auto;
@@ -46,7 +45,7 @@ a.gmail {
   color: black; /* Цвет символа */
   }
 
-article {
+article.about_me {
   font-size: 1.1em;
   max-width: 600px; /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
