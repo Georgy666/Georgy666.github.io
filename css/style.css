@@ -1,5 +1,5 @@
  {
-  
+
   /* Отменяем подчеркивание у ссылки */
   }
 
@@ -19,8 +19,11 @@ h1.title-last {
 p.links {
   font-size: 1.7em;
   margin: 0 auto;
+  }
+p.links>a {
   text-decoration: none;
   }
+
 
 body {
   font-family: "RobotoRegular";
