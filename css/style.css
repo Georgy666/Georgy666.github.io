@@ -1,4 +1,4 @@
-a {
+ {
   
   /* Отменяем подчеркивание у ссылки */
   }
@@ -19,6 +19,7 @@ h1.title-last {
 p.links {
   font-size: 1.7em;
   margin: 0 auto;
+  text-decoration: none;
   }
 
 body {
@@ -46,7 +47,7 @@ a.gmail {
   }
 
 article.about_me {
-  font-size: 1.4em;
+  font-size: 1.3em;
   max-width: 600px; /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
   margin-bottom: 10px; /*внешнй отступ*/
