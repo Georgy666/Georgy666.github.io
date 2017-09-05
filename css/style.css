@@ -52,6 +52,7 @@ article {
   }
 
 section {
+  font-size: 1.3em;
   max-width: 600px; /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
   }
