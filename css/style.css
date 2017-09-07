@@ -85,3 +85,9 @@ header {
 sub {
   font-size: 1em;
   }
+  
+.logo {
+  position: relative;
+  left: -5px;
+  margin: 0 auto;
+  }
