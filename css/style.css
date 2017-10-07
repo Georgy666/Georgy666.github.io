@@ -63,8 +63,14 @@ section {
 .content-FAQ {
   font-size: 1.3em;
   max-width: var(--maxi-width); /*максимальная ширина текста*/
-  margin: 0 auto; 
+  margin: 0 auto;
   }
+
+.instagram {
+  font-size: 1.3em;
+  max-width: var(--maxi-width); /*максимальная ширина текста*/
+  margin: 0 auto; 
+}
 
 div.page-404 {
 
