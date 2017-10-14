@@ -68,13 +68,20 @@ section {
   }
 
 .img-FAQ {
-  max-width: var(--maxi-width); /*максимальная ширина текста*/
-  margin: 0 auto;
-  top: -5px;
+    position: relative;
+    width: 100%; /* ширина картинки */
+    max-width: 500px; /*максимальная ширина текста*/
+    margin: 0 auto;
+    top: 5px;
+    height: auto; /* высота картинки */
+    border-radius: 30px;
 }
 
 .ul-FAQ {
-  left: -10px;
+    position: relative;
+    left: -40px;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 .instagram {
@@ -113,7 +120,27 @@ sub {
   position: relative;
   left: -5px;
   margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 30px;
   }
+
 hr {
   max-width: 30;
+}
+
+.img_fol {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.fol-audio {
+  margin: 0 auto;
+}
+
+.fol {
+  width: 100%; /* ширина картинки */
+  height: auto; /* высота картинки */
+  margin: 0 auto;
+  margin-bottom: 5px;
 }
