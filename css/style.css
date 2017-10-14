@@ -126,7 +126,7 @@ sub {
   }
 
 hr {
-  max-width: 80px;
+  max-width: 40%;
 }
 
 .img_fol {
