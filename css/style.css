@@ -93,6 +93,7 @@ section {
 .social {
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto;
+  margin-top: 5px;
 }
 
 div.page-404 {
