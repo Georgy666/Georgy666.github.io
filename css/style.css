@@ -90,6 +90,11 @@ section {
   margin: 0 auto;
 }
 
+.social {
+  max-width: var(--maxi-width); /*максимальная ширина текста*/
+  margin: 0 auto;
+}
+
 div.page-404 {
 
   font-size: 1.5em;
