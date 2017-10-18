@@ -101,7 +101,9 @@ section {
 div.social>a {
   text-decoration: none;
   }
-
+div.social>p {
+  margin-bottom: 10px;
+}
 div.page-404 {
 
   font-size: 1.5em;
