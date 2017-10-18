@@ -94,15 +94,13 @@ section {
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto;
   margin-top: 5px;
-  margin-left: -50px;
 }
 
 div.social>a {
   text-decoration: none;
   }
-  
+
 div.social>p {
-  margin-bottom: 10px;
   font-size: 1.3em;
 }
 
