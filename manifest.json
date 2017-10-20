@@ -3,23 +3,13 @@
   "short_name": "Blog",
   "icons": [
   {
-    "src": "/img/Favicons/favicon-16.png",
-    "sizes": "16x16",
-    "type": "image/png"
-  },
-  {
-    "src": "/img/Favicons/favicon-32.png",
-    "sizes": "32x32",
+    "src": "/img/Favicons/favicon-36.png",
+    "sizes": "36x36",
     "type": "image/png"
   },
   {
     "src": "/img/Favicons/favicon-48.png",
     "sizes": "48x48",
-    "type": "image/png"
-  },
-  {
-    "src": "/img/Favicons/favicon-62.png",
-    "sizes": "62x62",
     "type": "image/png"
   },
   {
@@ -35,11 +25,6 @@
   {
     "src": "/img/Favicons/favicon-144.png",
     "sizes": "144x144",
-    "type": "image/png"
-  },
-  {
-    "src": "/img/Favicons/favicon-168.png",
-    "sizes": "168x168",
     "type": "image/png"
   },
   {
