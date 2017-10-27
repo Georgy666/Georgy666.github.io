@@ -4,7 +4,7 @@
   src: url("/font/Roboto/RobotoRegular/RobotoRegular.woff2");
   /* Путь к файлу со шрифтом */
   src: url("/font/Roboto/RobotoRegular/RobotoRegular.woff2?#iefix")format("embedded-opentype"),
-  url("/font/Roboto/RobotoRegular/RobotoRegular.woff") format("woff2"),
+  url("/font/Roboto/RobotoRegular/RobotoRegular.woff2") format("woff2"),
   url("/font/Roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
