@@ -1,11 +1,13 @@
 @font-face {
   font-family: "RobotoRegular";
   /* Имя шрифта */
-  src: url("/font/Roboto/RobotoRegular/RobotoRegular.woff2");
-  /* Путь к файлу со шрифтом */
-  src: url("/font/Roboto/RobotoRegular/RobotoRegular.woff2?#iefix")format("embedded-opentype"),
-  url("/font/Roboto/RobotoRegular/RobotoRegular.woff2") format("woff2"),
-  url("/font/Roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+  src: /* Путь к файлу со шрифтом */
+    url("/font/Roboto/RobotoRegular/RobotoRegular.woff2")
+      format("woff2"),
+
+    url("/font/Roboto/RobotoRegular/RobotoRegular.woff")
+      format("woff");
+
   font-style: normal;
   font-weight: normal;
 }
