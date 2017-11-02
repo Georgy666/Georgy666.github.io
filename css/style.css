@@ -144,7 +144,7 @@ sub.copyright {
 hr {
   max-width: 50%;
   height: 3px;
-  background: #000000
+  background-color: #000000
 }
 
 .img_fol {
