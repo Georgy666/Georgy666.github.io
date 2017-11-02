@@ -134,7 +134,7 @@ header {
   padding-left: 20px;
   }
 
-.copyright>sub {
+div.copyright>sub {
   margin-top: 3px;
   font-size: 1em;
   text-align: center;
