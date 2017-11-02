@@ -136,6 +136,7 @@ header {
   }
 
 sub {
+  margin-top: 3px;
   margin: 0 auto;
   font-size: 1em;
   }
