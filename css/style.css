@@ -144,6 +144,7 @@ sub.copyright {
   }
 
 hr.line {
+  border: none;
   max-width: 50%;
   height: 2px;
   background-color: black;
