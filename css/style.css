@@ -30,7 +30,6 @@ p.links>a {
   text-decoration: none;
   }
 
-
 body {
   font-family: "RobotoRegular";
   background: #2F3238;
@@ -135,7 +134,7 @@ header {
   padding-left: 20px;
   }
 
-sub.copyright {
+p.copyright {
   max-width: var(--maxi-width);
   margin-top: 3px;
   margin-left: 0 auto;
