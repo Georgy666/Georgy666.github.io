@@ -134,7 +134,7 @@ header {
   padding-left: 20px;
   }
 
-p.copyright {
+p.copyright>sub {
   max-width: var(--maxi-width);
   margin-top: 3px;
   margin-left: 0 auto;
