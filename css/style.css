@@ -136,10 +136,9 @@ header {
   }
 
 sub {
+  margin: 0 auto;
   font-size: 1em;
   }
-
-
 
 hr {
   max-width: 50%;
