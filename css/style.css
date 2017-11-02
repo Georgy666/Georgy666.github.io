@@ -8,6 +8,16 @@ h1.site-name {
   /* Отрицательный отступ между заголовком и текстом */
   }
 
+.logo {
+  position: relative;
+  left: -5px;
+  top: -5px;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 30px;
+  }
+
 h1.title-last {
     font-size: 1.7em;
   }
@@ -130,14 +140,7 @@ sub {
   font-size: 1em;
   }
 
-.logo {
-  position: relative;
-  left: -5px;
-  margin: 0 auto;
-  width: 90px;
-  height: 90px;
-  border-radius: 30px;
-  }
+
 
 hr {
   max-width: 50%;
