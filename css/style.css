@@ -142,7 +142,7 @@ header {
 
 hr.line {
   border: none;
-  max-width: 50%;
+  max-width: 300px;
   height: 2px;
   background-color: black;
   color: black;
