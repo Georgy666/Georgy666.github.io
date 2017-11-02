@@ -143,6 +143,8 @@ sub {
 
 hr {
   max-width: 50%;
+  height: 2px;
+  background: #000000
 }
 
 .img_fol {
