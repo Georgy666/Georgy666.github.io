@@ -137,7 +137,8 @@ header {
 p.copyright>sub {
   max-width: var(--maxi-width);
   margin-top: 3px;
-  margin: 0 auto;
+  padding-left: 0 auto;;
+  padding-right: 0 auto;;
   font-size: 1em;
   text-align: center;
   }
