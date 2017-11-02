@@ -143,7 +143,7 @@ sub {
 
 hr {
   max-width: 50%;
-  height: 2px;
+  height: 3px;
   background: #000000
 }
 
