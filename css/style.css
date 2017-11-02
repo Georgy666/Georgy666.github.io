@@ -142,7 +142,7 @@ sub.copyright {
   font-size: 1em;
   }
 
-hr {
+hr.line {
   max-width: 50%;
   height: 3px;
   background-color: #000000;
