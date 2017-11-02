@@ -11,11 +11,10 @@ h1.site-name {
 .logo {
   position: relative;
   left: -5px;
-  top: -5px;
+  top: -10px;
   margin: 0 auto;
   width: 90px;
   height: 90px;
-  border-radius: 30px;
   }
 
 h1.title-last {
