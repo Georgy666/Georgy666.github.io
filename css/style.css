@@ -80,6 +80,7 @@ section {
   max-width: 500px; /*максимальная ширина текста*/
   margin: 0 auto;
   top: 5px;
+  height: 0 auto;
   border-radius: 30px;
 }
 
