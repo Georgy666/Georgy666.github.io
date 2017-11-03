@@ -160,7 +160,9 @@ header {
 }*/
 
 .fol-audio {
+  position: relative;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 .fol {
