@@ -175,6 +175,7 @@ header {
 }*/
 
 .fol-audio {
+  position: relative;
   margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 24px;
