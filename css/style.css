@@ -156,7 +156,7 @@ header {
 }
 
 .img-fol {
-  max-width: 600px;
+  max-width: var(--maxi-width);
   margin: 0 auto;
 }
 
