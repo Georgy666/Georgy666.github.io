@@ -103,6 +103,9 @@ section {
   margin-top: 5px;
   text-align: center;
 }
+.social>img {
+  text-align: center;
+}
 
 div.social>a {
   text-decoration: none;
