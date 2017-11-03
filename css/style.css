@@ -114,7 +114,7 @@ section {
 .social {
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto;
-  margin-top: 5px;
+  margin-top: 30px;
   text-align: center;
 }
 .social>img {
@@ -177,7 +177,7 @@ header {
 .fol-audio {
   position: relative;
   margin: 0 auto;
-  margin-bottom: -15px;
+  margin-bottom: -60px;
 
 }
 
