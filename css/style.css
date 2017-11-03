@@ -104,6 +104,7 @@ section {
   text-align: center;
 }
 .social>img {
+  max-width: 500px;
   margin-left: 0 auto;
   margin-right: 0 auto;
   text-align: center;
