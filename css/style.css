@@ -101,6 +101,7 @@ section {
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto;
   margin-top: 5px;
+  text-align: center;
 }
 
 div.social>a {
