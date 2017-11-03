@@ -132,7 +132,7 @@ section {
 }
 
 header {
-  background: url("../img/shattered-island.png") center center no-repeat;
+  background: url(../img/shattered-island.png) center center no-repeat;
   text-align: center;
   background-size: cover;
   padding-top: 40px;
