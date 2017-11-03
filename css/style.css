@@ -1,7 +1,8 @@
 :root {
   --maxi-width: 600px;
 }
-h1.site-name {
+
+.site-name {
   margin-bottom: -15px;
   font-size: 4em;
   margin: 0 auto;
@@ -17,16 +18,16 @@ h1.site-name {
   height: 90px;
 }
 
-h1.title-last {
+.title-last {
   font-size: 1.7em;
 }
 
-p.links {
+.links {
   font-size: 1.7em;
   margin: 0 auto;
 }
 
-p.links>a {
+.links>a {
   text-decoration: none;
 }
 
@@ -46,15 +47,15 @@ A:visited {
   /* Цвет посещенных ссылок */
 }
 
-a.letter {
+.letter {
   color: black; /* Цвет символа */
 }
 
-a.gmail {
+.gmail {
   color: black; /* Цвет символа */
 }
 
-article.about_me {
+.about_me {
   font-size: 1.4em;
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
@@ -108,17 +109,17 @@ section {
   margin-right: auto;
 }
 
-div.social>a {
+.social>a {
   text-decoration: none;
 
 }
 
-div.social>p {
+.social>p {
   margin-top: -4px;
   font-size: 1.3em;
 }
 
-div.page-404 {
+.page-404 {
 
   font-size: 1.5em;
   max-width: var(--maxi-width); /* Ширина */
@@ -146,7 +147,7 @@ header {
   text-align: center;
 }
 
-hr.line {
+.line {
   border: none;
   max-width: 650px;
   height: 2px;
