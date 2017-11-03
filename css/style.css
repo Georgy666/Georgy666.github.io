@@ -169,6 +169,7 @@ header {
   display: block;
   max-width: var(--maxi-width);
   width: 100%; /* ширина картинки */
-  margin: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
   margin-bottom: 5px;
 }
