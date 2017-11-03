@@ -161,14 +161,12 @@ header {
 }*/
 
 .fol-audio {
-  
   margin: 0 auto;
 }
 
 .fol {
-
+  align-content: center;
   max-width: var(--maxi-width);
-
   margin-left: 0 auto;
   margin-right: 0 auto;
   margin-bottom: 5px;
