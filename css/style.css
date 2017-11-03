@@ -168,8 +168,7 @@ header {
 .fol {
   display: block;
   max-width: var(--maxi-width);
-  /*width: 100%; /* ширина картинки */*/
-  /*height: auto; /* высота картинки */*/
+  width: 100%; /* ширина картинки */
   margin: 0 auto;
   margin-bottom: 5px;
 }
