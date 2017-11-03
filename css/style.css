@@ -161,14 +161,14 @@ header {
 }*/
 
 .fol-audio {
-  display: block;
+  
   margin: 0 auto;
 }
 
 .fol {
-  display: block;
+
   max-width: var(--maxi-width);
-  width: 100%; /* ширина картинки */
+
   margin-left: 0 auto;
   margin-right: 0 auto;
   margin-bottom: 5px;
