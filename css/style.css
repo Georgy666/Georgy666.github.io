@@ -176,13 +176,13 @@ header {
 
 .fol-audio {
   width: var(--maxi-width);
-  margin: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .fol {
-  position: relative;
   width: 100%;
   max-width: var(--maxi-width);
   margin: 0 auto;
