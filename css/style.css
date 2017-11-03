@@ -55,7 +55,7 @@ A:visited {
   color: black; /* Цвет символа */
 }
 
-.about_me {
+.about-me {
   font-size: 1.4em;
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
@@ -155,7 +155,7 @@ header {
   color: black;
 }
 
-.img_fol {
+.img-fol {
   max-width: 600px;
   margin: 0 auto;
 }
