@@ -12,7 +12,7 @@
 .logo {
   position: relative;
   left: -5px;
-  top: 14px;
+  bottom: -14px;
   margin: 0 auto;
   width: 90px;
   height: 90px;
@@ -162,7 +162,7 @@ header {
 .fol-audio {
   position: relative;
   margin: 0 auto;
-  top: 15px;
+  bottom: -15px;
 }
 
 .fol {
