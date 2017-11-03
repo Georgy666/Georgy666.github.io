@@ -80,7 +80,6 @@ section {
   max-width: 500px; /*максимальная ширина текста*/
   margin: 0 auto;
   top: 5px;
-  height: auto; /* высота картинки */
   border-radius: 30px;
 }
 
@@ -165,9 +164,10 @@ header {
 }
 
 .fol {
-  align-content: center;
+  position: relative;
+  width: 100%;
   max-width: var(--maxi-width);
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin: 0 auto;
   margin-bottom: 5px;
+  border-radius: 30px;
 }
