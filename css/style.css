@@ -10,6 +10,8 @@
 }
 
 .site-name-404 {
+  font-size: 4em;
+  margin: 0 auto;
   margin-top: -15px;
 }
 
@@ -26,6 +28,9 @@
   position: relative;
   left: -5px;
   top: -5px;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
 }
 
 .title-last {
