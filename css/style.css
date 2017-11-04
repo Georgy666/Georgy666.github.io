@@ -175,17 +175,26 @@ header {
 }*/
 
 .fol-audio {
-  margin: 0 auto;
+  display: block;
+  max-width:85%;
+  margin: 1ex auto;
+
+  /*margin: 0 auto;
+
   margin-top: 10px;
-  text-align: center;
+  text-align: center;*/
 }
 
 .fol-img {
-  text-align: center;
+  display: block;
+  max-width:85%;
+  margin: 1ex auto;
+
+  /*text-align: center;
   position: relative;
   width: 100%;
   max-width: var(--maxi-width);
-  margin: 0 auto;
+  margin: 0 auto;*/
   margin-bottom: 5px;
   border-radius: 30px;
 }
