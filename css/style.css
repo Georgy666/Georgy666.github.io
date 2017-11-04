@@ -171,20 +171,11 @@ header {
   color: black;
 }
 
-/*.img-fol {
-  max-width: var(--maxi-width);
-  margin: 0 auto;
-}*/
-
 .fol-audio {
   display: block;
   max-width:85%;
   margin: 0 auto;
-
-  /*margin: 0 auto;
-
   margin-top: 10px;
-  text-align: center;*/
 }
 
 .fol-img {
