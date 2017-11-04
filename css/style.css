@@ -177,7 +177,7 @@ header {
 .fol-audio {
   display: block;
   max-width:85%;
-  margin: 1ex auto;
+  margin: 0 auto;
 
   /*margin: 0 auto;
 
@@ -188,7 +188,7 @@ header {
 .fol-img {
   display: block;
   width:100%;
-  margin: 1ex auto;
+  margin: 0 auto;
   max-width: var(--maxi-width);
   margin-bottom: 5px;
   border-radius: 30px;
