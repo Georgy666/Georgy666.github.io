@@ -90,9 +90,9 @@ section {
 }
 
 .img-FAQ {
-  position: relative;
+  display: block;
   width: 100%; /* ширина картинки */
-  max-width: 500px; /*максимальная ширина текста*/
+  max-width: 500px;
   margin: 0 auto;
   top: 5px;
   border-radius: 30px;
