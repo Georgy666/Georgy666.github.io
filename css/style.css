@@ -81,7 +81,6 @@ A:visited {
   font-size: 1.3em;
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
-  text-align: center;
 }
 
 .blog-post>p {
