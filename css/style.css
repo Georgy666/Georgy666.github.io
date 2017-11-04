@@ -187,14 +187,9 @@ header {
 
 .fol-img {
   display: block;
-  width:85%;
+  width:100%;
   margin: 1ex auto;
   max-width: var(--maxi-width);
   margin-bottom: 5px;
   border-radius: 30px;
-  /*text-align: center;
-  position: relative;
-  width: 100%;
-  max-width: var(--maxi-width);
-  margin: 0 auto;*/
 }
