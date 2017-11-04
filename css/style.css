@@ -92,7 +92,10 @@ A:visited {
   font-size: 1.3em;
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto;
-  text-align: center;
+}
+
+.content-FAQ>p {
+  padding: 0px 0px 0px 25px; /*верхний, правый, нижний, левый*/
 }
 
 .img-FAQ {
@@ -104,16 +107,12 @@ A:visited {
   border-radius: 30px;
 }
 
-/*.content-FAQ>p {
-  padding: 0px 0px 0px 25px; /*верхний, правый, нижний, левый
-}
-
 .ul-FAQ {
   position: relative;
   left: -40px;
   margin-top: 13px;
   margin-bottom: 13px;
-}*/
+}
 
 .instagram {
   font-size: 1.3em;
