@@ -91,6 +91,7 @@ section {
 
 .content-FAQ>p {
   padding-left: 20px;
+  padding: 0 auto;
 }
 
 .img-FAQ {
