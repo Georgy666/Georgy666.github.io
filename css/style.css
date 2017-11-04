@@ -83,7 +83,11 @@ A:visited {
   margin: 0 auto; /* центрирование текста*/
 }
 
-.blog-post>p {
+.preview-post-vkbot>p {
+  margin-top: -15px;
+}
+
+.preview-post-FAQ>p {
   margin-top: -15px;
 }
 
