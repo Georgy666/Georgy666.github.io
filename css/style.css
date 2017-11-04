@@ -175,13 +175,14 @@ header {
 }*/
 
 .fol-audio {
-  position: relative;
+  text-align: center;
   max-width: 50%;
   margin: 0 auto;
   margin-top: 10px;
 }
 
 .fol {
+  text-align: center;
   position: relative;
   width: 100%;
   max-width: var(--maxi-width);
