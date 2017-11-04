@@ -94,7 +94,7 @@ section {
   width: 100%; /* ширина картинки */
   max-width: var(--maxi-width);
   margin: 0 auto;
-  top: 5px;
+  margin-bottom: -5px;
   border-radius: 30px;
 }
 
