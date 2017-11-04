@@ -99,7 +99,7 @@ section {
 .img-FAQ {
   display: block;
   width: 100%; /* ширина картинки */
-  max-width: var(--maxi-width);
+  max-width: 550;
   margin: 0 auto;
   margin-bottom: -5px;
   padding-top: 10px;
