@@ -90,7 +90,7 @@ section {
 }
 
 .content-FAQ>p {
-  padding: 0px 0px 0px 20px; /*верхний, правый, нижний, левый*/
+  padding: 0px 0px 0px 25px; /*верхний, правый, нижний, левый*/
 }
 
 .img-FAQ {
@@ -99,7 +99,6 @@ section {
   max-width: 550px;
   margin: 0 auto;
   margin-bottom: -5px;
-  padding-top: 10px;
   border-radius: 30px;
 }
 
