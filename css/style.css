@@ -123,8 +123,8 @@ A:visited {
   margin-bottom: 13px;
 }
 
-.instagram {
-  font-size: 1.3em;
+#instafeed {
+  display: block;
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto;
 }
