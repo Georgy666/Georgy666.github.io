@@ -1,6 +1,6 @@
 $.fn.instalist = function(params) {
-    var userid = 1409655114;
-    var access_token = 1409655114.c0397e1.fdc3041447634bdf8b3a88f5eff3c3d0;
+    var userid = params.userid;
+    var access_token = params.access_token;
     var startUrl = '';
     var prevUrl = '';
     var isFirst = true;
