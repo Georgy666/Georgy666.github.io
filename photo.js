@@ -1,30 +1,50 @@
 $.fn.instalist = function(params) {
-    var userid = params.userid;
-    var access_token = params.access_token;
-    var startUrl = '';
-    var prevUrl = '';
-    var isFirst = true;
+  var userid = params.userid;
+  var access_token = params.access_token;
+  var startUrl = '';
+  var prevUrl = '';
+  var isFirst = true;
 
-    this.getList = function(page){
-        var url = '';
-        if( (!startUrl || startUrl == '' || startUrl == undefined) && isFirst == true ){
-            url = 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + access_token;
-        } else{ url = startUrl; }
-        isFirst = false;
-        if(page == 'first'){url = 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + access_token;}
-        if(page == 'prev'){
-            if(prevUrl && prevUrl != '' && prevUrl != undefined){ url = prevUrl; }
-            else{ url = 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + access_token; }
-        }
-        return new Promise(function(resolve, reject) {
-            if(url != undefined){
-                var list = $.ajax({type: 'GET', url: url, dataType: 'jsonp', cache: false});
-                list.done(function(data){ prevUrl = startUrl; startUrl = data.pagination.next_url; resolve(data.data); });
-                list.fail(function(data){ reject(data); });
-            } else{ reject(false); }
-        });
+  this.getList = function(page) {
+    var url = '';
+    if ((!startUrl || startUrl == '' || startUrl == undefined) && isFirst == true) {
+      url = 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + access_token;
+    } else {
+      url = startUrl;
     }
-    return this;
+    isFirst = false;
+    if (page == 'first') {
+      url = 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + access_token;
+    }
+    if (page == 'prev') {
+      if (prevUrl && prevUrl != '' && prevUrl != undefined) {
+        url = prevUrl;
+      } else {
+        url = 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + access_token;
+      }
+    }
+    return new Promise(function(resolve, reject) {
+      if (url != undefined) {
+        var list = $.ajax({
+          type: 'GET',
+          url: url,
+          dataType: 'jsonp',
+          cache: false
+        });
+        list.done(function(data) {
+          prevUrl = startUrl;
+          startUrl = data.pagination.next_url;
+          resolve(data.data);
+        });
+        list.fail(function(data) {
+          reject(data);
+        });
+      } else {
+        reject(false);
+      }
+    });
+  }
+  return this;
 }
 
 
