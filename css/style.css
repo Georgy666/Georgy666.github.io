@@ -125,7 +125,7 @@ A:visited {
 
 #instafeed {
   display: block;
-  max-width: var(--maxi-width); /*максимальная ширина текста*/
+  max-width: 800px; /*максимальная ширина текста*/
   margin: 0 auto;
 }
 
