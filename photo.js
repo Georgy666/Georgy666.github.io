@@ -14,10 +14,10 @@ jQuery(function($) {
     			$('ul').append('<li><img src="'+result.data[x].images.thumbnail.url+'"></li>');
 
 
-        document.write(result);
+        document.write(data);
         document.write(x);
       document.write(result);
-      document.write(x);
+      document.write(data);
 
            // result.data[x].images.low_resolution.url - это URL картинки среднего разрешения, 306х306
     			// result.data[x].images.thumbnail.url - URL картинки 150х150
