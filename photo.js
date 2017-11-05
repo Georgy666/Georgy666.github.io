@@ -12,8 +12,9 @@ jQuery(function($) {
      		console.log(result);
     		for( x in result.data ){
     			$('ul').append('<li><img src="'+result.data[x].images.thumbnail.url+'"></li>');
-          document.write(result);
+
         document.write(result);
+      document.write(result);
            // result.data[x].images.low_resolution.url - это URL картинки среднего разрешения, 306х306
     			// result.data[x].images.thumbnail.url - URL картинки 150х150
     			// result.data[x].images.standard_resolution.url - URL картинки 612х612
