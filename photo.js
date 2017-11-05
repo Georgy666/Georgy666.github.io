@@ -16,6 +16,9 @@ jQuery(function($) {
 
         document.write(result);
         document.write(x);
+      document.write(result);
+      document.write(x);
+
            // result.data[x].images.low_resolution.url - это URL картинки среднего разрешения, 306х306
     			// result.data[x].images.thumbnail.url - URL картинки 150х150
     			// result.data[x].images.standard_resolution.url - URL картинки 612х612
