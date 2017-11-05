@@ -1,6 +1,6 @@
 $.fn.instalist = function(params) {
     var userid = 1409655114;
-    var access_token = "1409655114.c0397e1.fdc3041447634bdf8b3a88f5eff3c3d0";
+    var access_token = 1409655114.c0397e1.fdc3041447634bdf8b3a88f5eff3c3d0;
     var startUrl = '';
     var prevUrl = '';
     var isFirst = true;
@@ -28,15 +28,10 @@ $.fn.instalist = function(params) {
 }
 
 
-var instagram = $(document).instalist({
-  userid: 'a17209b4be32219f92a5e6ca71257d5e', //впишите ваш user ID
-  access_token: '239318235.1799ed3.6ac8632448004727b3ec085ae169eep1', //а сюда access token
-});
-
 
 var instagram = $(document).instalist({
-  userid: 'a17209b4be32219f92a5e6ca71257d5e', //впишите ваш user ID
-  access_token: '239318235.1799ed3.6ac8632448004727b3ec085ae169eep1', //а сюда access token
+  userid: '1409655114', //впишите ваш user ID
+  access_token: '1409655114.c0397e1.fdc3041447634bdf8b3a88f5eff3c3d0', //а сюда access token
 });
 
 var list = instagram.getList();
@@ -45,11 +40,7 @@ list.then(
   error => showError(error)
 );
 
-var list = instagram.getList();
-list.then(
-  response => printPhoto(response),
-  error => showError(error)
-);
+
 
 
 
