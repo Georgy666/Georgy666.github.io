@@ -62,14 +62,6 @@ A:visited {
   /* Цвет посещенных ссылок */
 }
 
-.letter {
-  color: black; /* Цвет символа */
-}
-
-.gmail {
-  color: black; /* Цвет символа */
-}
-
 .about-me {
   font-size: 1.4em;
   max-width: var(--maxi-width); /*максимальная ширина текста*/
@@ -82,10 +74,6 @@ A:visited {
   max-width: var(--maxi-width); /*максимальная ширина текста*/
   margin: 0 auto; /* центрирование текста*/
 }
-
-/*.blog-post>p {
-  margin-top: -20px;
-}*/
 
 .preview-post-vkbot>p {
   margin-top: -17px;
