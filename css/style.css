@@ -122,6 +122,7 @@ A:visited {
 
 #vk_comments {
   max-width: var(--maxi-width);
+  height: 500px;
   margin: 0 auto;
   text-align: center;
 }
