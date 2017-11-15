@@ -64,15 +64,20 @@ A:visited {
 
 .about-me {
   font-size: 1.4em;
-  max-width: var(--maxi-width); /*максимальная ширина текста*/
-  margin: 0 auto; /* центрирование текста*/
-  margin-bottom: 10px; /*внешнй отступ*/
+  max-width: var(--maxi-width);
+  /* максимальная ширина текста */
+  margin: 0 auto;
+  /* центрирование текста */
+  margin-bottom: 10px;
+  /* внешнй отступ */
 }
 
 .blog-post {
   font-size: 1.3em;
-  max-width: var(--maxi-width); /*максимальная ширина текста*/
-  margin: 0 auto; /* центрирование текста*/
+  max-width: var(--maxi-width);
+  /* максимальная ширина текста */
+  margin: 0 auto;
+  /* центрирование текста*/
 }
 
 .preview-post-vkbot>p {
@@ -84,20 +89,22 @@ A:visited {
   margin-top: -17px;
 }
 
-
 .content-FAQ {
   font-size: 1.3em;
-  max-width: var(--maxi-width); /*максимальная ширина текста*/
+  max-width: var(--maxi-width);
+  /* максимальная ширина текста */
   margin: 0 auto;
 }
 
 .content-FAQ>p {
-  padding: 0px 0px 0px 25px; /*верхний, правый, нижний, левый*/
+  padding: 0px 0px 0px 25px;
+  /* верхний, правый, нижний, левый */
 }
 
 .img-FAQ {
   display: block;
-  width: 100%; /* ширина картинки */
+  width: 100%;
+  /* ширина картинки */
   max-width: 550px;
   margin: 0 auto;
   margin-bottom: -5px;
@@ -113,11 +120,11 @@ A:visited {
 
 #instafeed {
   display: block;
-  max-width: 700px; /*максимальная ширина текста*/
+  max-width: 700px;
+  /* максимальная ширина текста */
   margin: 0 auto;
   text-align: center;
   font-size: 1.3em;
-
 }
 
 #vk_comments {
@@ -128,22 +135,23 @@ A:visited {
 }
 
 .social {
-  max-width: var(--maxi-width); /*максимальная ширина текста*/
+  max-width: var(--maxi-width);
+  /* максимальная ширина текста */
   margin: 0 auto;
   margin-top: 30px;
   text-align: center;
 }
+
 .social>img {
   display: block;
   margin: 0 auto;
-  /*max-width: 500px;
+  /* max-width: 500px;
   margin-left: auto;
-  margin-right: auto;*/
+  margin-right: auto; */
 }
 
 .social>a {
   text-decoration: none;
-
 }
 
 .social>p {
@@ -152,15 +160,18 @@ A:visited {
 }
 
 .page-404 {
-
   font-size: 1.5em;
-  max-width: var(--maxi-width); /* Ширина */
-  padding: 20px; /* Поля */
-
+  max-width: var(--maxi-width);
+  /* Ширина */
+  padding: 20px;
+  /* Поля */
   margin: 0 auto;
-  -moz-box-sizing: border-box; /* Для Firefox */
-  -webkit-box-sizing: border-box; /* Для Safari и Chrome */
-  box-sizing: border-box; /* Для IE и Opera */
+  -moz-box-sizing: border-box;
+  /* Для Firefox */
+  -webkit-box-sizing: border-box;
+  /* Для Safari и Chrome */
+  box-sizing: border-box;
+  /* Для IE и Opera */
 }
 
 header {
@@ -189,7 +200,7 @@ header {
 
 .fol-audio {
   display: block;
-  max-width:85%;
+  max-width: 85%;
   margin: 0 auto;
   padding-top: 5px;
   margin-bottom: -20px;
@@ -197,7 +208,7 @@ header {
 
 .fol-img {
   display: block;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
   max-width: var(--maxi-width);
   margin-bottom: 5px;

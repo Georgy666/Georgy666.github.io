@@ -33,7 +33,7 @@
 
 
   <!--для Apple-->
-  <meta name = "apple-mobile-web-app-title" content = "VilgelmBlog">
+  <meta name="apple-mobile-web-app-title" content="VilgelmBlog">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/img/Favicons/apple-touch-icon-57.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/img/Favicons/apple-touch-icon-72.png">
@@ -57,10 +57,13 @@
 
   <title>Галерея</title>
 </head>
+
 <body>
   <header>
     <h1 class="site-name">
-      <a href="https://villblog.ru/"><img class="logo" src="/img/jager.png" alt="лого сайта"></a>Vilgelm Blog
+      <a href="https://villblog.ru/">
+        <img class="logo" src="/img/jager.png" alt="лого сайта">
+      </a>Vilgelm Blog
     </h1>
 
     <p class="links" align="center">
@@ -75,13 +78,13 @@
   <script src="instafeed.min.js"></script>
   <script>
     var userFeed = new Instafeed({
-    resolution: 'low_resolution',
-    get: 'user',
-    userId: '3553688327',
-    accessToken: '3553688327.e3d5dab.ea0524a67cb34e49bd1afb583bbbbb03'
+      resolution: 'low_resolution',
+      get: 'user',
+      userId: '3553688327',
+      accessToken: '3553688327.e3d5dab.ea0524a67cb34e49bd1afb583bbbbb03'
     });
-  userFeed.run();
-</script>
+    userFeed.run();
+  </script>
 
   <div id="instafeed" alt="Фото из Instagram">
     <p>
@@ -95,5 +98,4 @@
     &copy; Vilgelm blog 2017
   </div>
 </body>
-
 </html>
