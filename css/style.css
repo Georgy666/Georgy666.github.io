@@ -134,6 +134,14 @@ A:visited {
   text-align: center;
 }
 
+#comment-field {
+  text-align: center;
+}
+
+#comment-button {
+  text-align: center;
+}
+
 .social {
   max-width: var(--maxi-width);
   /* максимальная ширина текста */
