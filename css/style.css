@@ -144,6 +144,11 @@ A:visited {
   margin: 0;
 }
 
+#comment-form {
+  display: block;
+  margin: 0 auto;
+}
+
 .social {
   max-width: var(--maxi-width);
   /* максимальная ширина текста */
