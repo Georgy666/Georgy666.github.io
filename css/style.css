@@ -136,10 +136,12 @@ A:visited {
 
 #comment-field {
   text-align: center;
+  margin: 0;
 }
 
 #comment-button {
   text-align: center;
+  margin: 0;
 }
 
 .social {
