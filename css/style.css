@@ -80,11 +80,13 @@ A:visited {
   /* центрирование текста*/
 }
 
-.preview-post-Halloween {
+.preview-post-Halloween>p {
+  margin-top: -17px;
   padding-bottom: 20px;
 }
 
 .preview-post-vkbot>p {
+  margin-top: -17px;
   padding-bottom: 20px;
 }
 
