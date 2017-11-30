@@ -194,6 +194,12 @@ A:visited {
   /* Для IE и Opera */
 }
 
+.monk {
+  
+  
+}
+
+
 header {
   background: url(../img/shattered-island.png) center center no-repeat;
   text-align: center;
@@ -234,3 +240,4 @@ header {
   margin-bottom: 5px;
   border-radius: 30px;
 }
+
